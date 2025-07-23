@@ -382,7 +382,7 @@ footer {
     margin-right: 10px;
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1370px) {
     #formulario-fale-conosco {
         height: 440px;
         display: flex;
