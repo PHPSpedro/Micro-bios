@@ -383,6 +383,21 @@ footer {
 }
 
 @media screen and (max-width: 1272px) {
+    #formulario-fale-conosco {
+        height: 440px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(68, 68, 68);
+        position: fixed;
+        top: 100px;
+        left: 50%;
+        padding: 20px;
+        border-radius: 5px;
+        gap: 10px;
+        z-index: 1;
+        display: none;
+        z-index: 4;
+    }
 
     .texto-principal {
         width: 50%;
