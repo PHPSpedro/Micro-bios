@@ -360,21 +360,111 @@ footer {
     flex-direction: column;
     padding: 35px 8px;
 }
-.clientes-lista{
+
+.clientes-lista {
     margin-top: 15px;
     display: flex;
     width: 100%;
     background-color: rgba(245, 247, 250, 255);
     gap: 10px;
 }
-.cliente-imagem-alphatec{
+
+.cliente-imagem-alphatec {
     margin-top: 15px;
     width: 100px;
     height: 50px;
     margin-right: 10px;
 }
-.cliente-imagem{
+
+.cliente-imagem {
     width: 100px;
     height: 80px;
     margin-right: 10px;
+}
+
+@media screen and (max-width: 1272px) {
+
+    .texto-principal {
+        width: 50%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: left;
+        font-size: 17px;
+        color: black;
+        font-weight: bold;
+        font-family: "Merriweather", serif;
+        padding-right: 100px;
+        line-height: 1.6;
+    }
+
+    #texto-footer {
+        width: 25%;
+        height: 100%;
+        margin-left: 26px;
+        padding: 30px 5px;
+        font-size: 14px;
+        font-weight: 600;
+        font-family: "Merriweather", serif;
+        text-align: left;
+        line-height: 1.8;
+
+    }
+
+    #contato-footer {
+        width: 25%;
+        height: 100%;
+        margin-left: 20px;
+        padding: 35px 8px;
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    #contato-footer a {
+        text-decoration: none;
+    }
+
+    #link-whats-footer {
+        color: rgba(207, 224, 154, 255)
+    }
+
+    #direitos-footer {
+        position: absolute;
+        bottom: 2px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #direitos-footer hr {
+        opacity: 0.2;
+    }
+
+    #clientes-footer {
+        display: flex;
+        flex-direction: column;
+        padding: 35px 8px;
+    }
+
+    .clientes-lista {
+        margin-top: 15px;
+        display: flex;
+        width: 100%;
+        background-color: rgba(245, 247, 250, 255);
+        gap: 10px;
+    }
+
+    .cliente-imagem-alphatec {
+        margin-top: 15px;
+        width: 100px;
+        height: 50px;
+        margin-right: 10px;
+    }
+
+    .cliente-imagem {
+        width: 60px;
+        height: 80px;
+        margin-right: 10px;
+    }
 }
