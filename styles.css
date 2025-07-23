@@ -382,7 +382,7 @@ footer {
     margin-right: 10px;
 }
 
-@media screen and (max-width: 1272px) {
+@media screen and (max-width: 1200px) {
 
     .texto-principal {
         width: 50%;
